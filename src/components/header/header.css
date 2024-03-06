@@ -22,6 +22,7 @@ html {
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
+  padding-right: 10x;
 }
 
 .nav__list {
