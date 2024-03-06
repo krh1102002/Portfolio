@@ -161,3 +161,6 @@
     top: 27px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}

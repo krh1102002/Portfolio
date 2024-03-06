@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .scrollup {
   position: fixed;
   right: 2rem;

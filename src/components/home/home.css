@@ -1,7 +1,7 @@
 .home__container {
   row-gap: 7rem;
 }
-* {
+html {
   scroll-behavior: smooth;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .home__social-icon {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   color: var(--title-color);
   cursor: pointer;
 }
@@ -66,8 +66,8 @@
 }
 
 .home__description {
-  max-width: 400px;
-  margin-bottom: var(--mb-3);
+  max-width: 800px;
+  margin-bottom: var(--mb-1);
 }
 
 .home__img {

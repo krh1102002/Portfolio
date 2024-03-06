@@ -53,6 +53,7 @@ const About = () => {
                   href={item.urlPath}
                   className="about__skills-btn"
                   key={item.id}
+                  target="_blank"
                 >
                   <div className="about__skills-icon">{item.icon}</div>
                   <div className="about__skills-text">{item.iconText}</div>
