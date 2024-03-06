@@ -174,8 +174,6 @@ html {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .col {
@@ -2692,7 +2690,7 @@ html {
 }
 
 .about__skills-text {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
@@ -2739,7 +2737,7 @@ html {
     ); /* Adjust for smaller screens */
   }
   .about__skills-text {
-    font-size: 0.61rem;
+    font-size: 0.81rem;
   }
 }
 

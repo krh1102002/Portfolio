@@ -22,7 +22,7 @@ html {
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
-  padding-right: 10x;
+  padding-right: 15x;
 }
 
 .nav__list {
@@ -102,6 +102,8 @@ html {
 
   .nav__toggle {
     font-size: 1.1rem;
+    padding-right: 15x;
+
     cursor: pointer;
   }
 
@@ -109,6 +111,7 @@ html {
   .nav__close,
   .nav__toggle {
     display: block;
+    padding-right: 15x;
   }
 }
 
