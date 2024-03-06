@@ -9,6 +9,7 @@ import ScrollUp from "./components/scrollUp/ScrollUp";
 import Project from "./components/projects/Project";
 import Footer from "./components/footer/Footer";
 import ExperienceSection from "./components/experience/experience";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (

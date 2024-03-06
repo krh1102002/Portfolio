@@ -10,7 +10,7 @@ const About = () => {
 
       <div className=" container">
         <div className="row px-3">
-          <div className="col-md-7">
+          <div className="col-md-6">
             <h1 className="about__title mb-4 ">Get to know me!</h1>
             <p className="about__description mb-2">
               I'm a <b className="about__full-stack">Full Stack Developer</b>{" "}
@@ -45,21 +45,19 @@ const About = () => {
               </svg>
             </a>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <h1 className="about__title mb-4 mt-4 mt-md-0">My Skills</h1>
             <div className="parent">
-              <div className="row">
-                {aboutData.map((item) => (
-                  <div className="col-md-3 col-4">
-                    <div className="wrapper mb-2" key={item.id}>
-                      <div className="about__button">
-                        <div className="icon">{item.icon}</div>
-                        <span className="icon-text">{item.iconText}</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+              {aboutData.map((item) => (
+                <a
+                  href={item.urlPath}
+                  className="about__skills-btn"
+                  key={item.id}
+                >
+                  <div className="about__skills-icon">{item.icon}</div>
+                  <div className="about__skills-text">{item.iconText}</div>
+                </a>
+              ))}
             </div>
           </div>
         </div>

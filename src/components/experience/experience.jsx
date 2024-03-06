@@ -46,9 +46,12 @@ const ExperienceSection = () => {
       name: "MetLife Foundation",
       role: "Frontend Developer Intern",
       start: "Apr 2022",
-      end: "May 2022",
+      end: "Jun 2022",
       imgSrc: metlife,
-      shortDescriptions: ["lorem23", "lorem24", "lorem22"],
+      shortDescriptions: [
+        " I played a pivotal role in enhancing the organization's digital presence. My contributions included designing and developing a user-friendly website that effectively communicates the foundation's mission, upcoming events, and achievements",
+        "I was instrumental in identifying and resolving various technical bugs, ensuring the website's optimal performance and accessibility",
+      ],
     },
   ];
 

@@ -663,8 +663,9 @@
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
-  .parent{
+  .parent {
     display: flex;
+    flex-wrap: wrap;
   }
   .col-md-6 {
     -webkit-box-flex: 0;
@@ -2583,27 +2584,27 @@
   }
 }
 
-.skills{
-display: inline-block;
-height: 60px;
-width: 60px;
-float: left;
-margin: 0 5px;
-overflow: hidden;
-background: #fff;
-cursor: pointer;
-border-radius: 50px;
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-transition: all 0.3s ease-out;
+.skills {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
 }
 
-.wrapper{
+.wrapper {
   margin: 0 4px;
 }
-.wrapper:hover .icon-text{
+.wrapper:hover .icon-text {
   display: flex;
 }
-.about__button{
+.about__button {
   display: flex;
   width: 54px;
   font-size: 25px;
@@ -2615,41 +2616,217 @@ transition: all 0.3s ease-out;
   font-weight: var(--font-medium);
   transition: all 0.4s ease-in-out;
 }
-.about__button:hover{
+.about__button:hover {
   width: 168px;
   cursor: pointer;
   color: #fff;
 }
-.about__button:hover,.icon-text{
+.about__button:hover,
+.icon-text {
   display: flex;
 }
-.wrapper .button:hover{
+.wrapper .button:hover {
   width: 200px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-.wrapper .button.icon{
+.wrapper .button.icon {
   display: inline-block;
   height: 60px;
-  width: 60%;text-align: center;
+  width: 60%;
+  text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
   line-height: 60px;
   transition: all 0.5s ease-in-out;
   display: flex;
-    align-items: center;
-    font-size: 28px;
+  align-items: center;
+  font-size: 28px;
 }
 
-.icon-text{
+.icon-text {
   padding: 0 7px;
   display: none;
 }
-.icon-text:hover{
+.icon-text:hover {
   color: #fff;
 }
-.wrapper .button.icon i{
+.wrapper .button.icon i {
   font-size: 25px;
   line-height: 60px;
   transition: all 0.5s ease-in-out;
+}
+
+.about {
+  /* Your existing .about styles */
+}
+
+/* Add styles for the skill buttons */
+.about__skills-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff; /* or any color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Adjust as necessary to match the design */
+  padding: 8px 16px; /* Adjust padding to match the design */
+  margin: 10px;
+  text-decoration: none;
+  color: #000; /* Adjust the font color as needed */
+  transition: all 0.3s ease;
+}
+
+.about__skills-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #e0e5e373;
+}
+
+.about__skills-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.about__skills-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.svg-inline--fa {
+  width: 1em;
+  height: 1em;
+}
+.about__info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+  padding: var(--mb-2);
+}
+
+.about__box {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 0.5rem; /* Adjust the padding to match the height of the boxes in the image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+.about__box:hover {
+  background-color: var(
+    --title-color
+  ); /* This should be the color when the box is hovered */
+  transform: translateY(
+    -5px
+  ); /* Optional: Adds a small lift effect when hovered */
+}
+
+@media screen and (max-width: 576px) {
+  .about__info {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100px, 1fr)
+    ); /* Adjust for smaller screens */
+  }
+  .about__skills-text {
+    font-size: 0.61rem;
+  }
+}
+
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.about__img {
+  width: 100%; /* responsive width */
+  max-width: 350px; /* maximum width */
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__info {
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(140px, 1fr)
+  ); /* responsive grid */
+  gap: 0.5rem;
+  margin-bottom: var(--mb-2);
+}
+
+.about__box {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
+/* ... (rest of your original CSS for other classes) ... */
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .about__img {
+    max-width: 220px;
+  }
+
+  .about__box {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .about__skills-text {
+    font-size: 0.61rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about__info {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100px, 1fr)
+    ); /* more responsive grid */
+  }
+
+  /* Adjust padding for descriptions if needed */
+  .about__description {
+    padding: var(--mb-0-75) var(--mb-1); /* adjust according to design */
+  }
+}
+
+/* For extra small devices */
+@media screen and (max-width: 350px) {
+  .about__info {
+    grid-template-columns: 1fr; /* stack items vertically */
+  }
+
+  .about__description {
+    padding: var(--mb-0-5); /* adjust according to design */
+  }
+}
+
+/* Skill section adjustments */
+.skills {
+  width: 48px; /* smaller width for small devices */
+  height: 48px; /* smaller height for small devices */
+  margin: 0.5rem; /* smaller margins */
+}
+
+@media screen and (max-width: 576px) {
+  .skills {
+    width: 40px; /* even smaller width for extra small devices */
+    height: 40px; /* even smaller height for extra small devices */
+  }
 }
