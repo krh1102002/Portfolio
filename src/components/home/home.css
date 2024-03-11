@@ -67,7 +67,7 @@ html {
 
 .home__description {
   max-width: 800px;
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-3);
 }
 
 .home__img {
@@ -195,11 +195,6 @@ html {
   gap: 1rem; /* Adjust the gap as needed */
   align-items: center; /* Aligns items vertically in the center */
   justify-content: start; /* Aligns items to the start of the container */
-}
-
-.button--flex {
-  display: flex;
-  align-items: center; /* Aligns items vertically in the center */
 }
 
 .button--view .button__icon {

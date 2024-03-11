@@ -10,13 +10,17 @@ const Footer = () => {
             <div className="footer__title">
               <h1 className="footer__title-name mb-md-3 mb-3">Kunal Hulke</h1>
               <p className="footer__description">
-                A Full Stack focused Web Developer building the Full Stack
-                Websites and Web Applications that leads to the success of the
-                overall product
+                Full Stack Web Developer dedicated to building impactful web
+                solutions that drive product success. Expert in seamless
+                front-end and back-end integration for enhanced user
+                experiences.
               </p>
             </div>
           </div>
-          <div className="col-md-3">
+          <div
+            className="col-md-3"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <div className="footer__social">
               <h1 className="footer__title-name mb-md-3 mt-4 mt-md-0">
                 Socials

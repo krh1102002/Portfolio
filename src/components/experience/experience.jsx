@@ -14,8 +14,8 @@ const ExperienceSection = () => {
       end: "Feb 2024",
       imgSrc: kelp,
       shortDescriptions: [
-        "Delved into the development of cutting-edge software solutions, enhancing the company's product suite with features that promote user engagement and operational excellence",
-        " Demonstrated exceptional problem-solving skills by identifying and addressing software bugs, and improving system performance and stability.",
+        "efined one of the core Kelp Global module's user experiences, ensuring intuitive interactionand increased user satisfaction.",
+        "Identified and fixed critical bugs within the module, leading to enhanced system reliability andsmoother user experiences",
       ],
     },
     {
@@ -25,8 +25,8 @@ const ExperienceSection = () => {
       end: "Aug 2024",
       imgSrc: dfiie,
       shortDescriptions: [
-        "Develop a detailed DFIIE website showcasing its purposes, visions, and services.",
-        "Include information about its future ambitions and objectives.",
+        "Architected DFIIE's website, combining leadership with expertise in design and development to enhance the digital platform",
+        "nnovated a platform within the website, spotlighting startups and fueling their journey by connecting them with DFIIE’s mission and resources.",
         "Provide a platform for startups to display their ventures.",
       ],
     },
@@ -37,9 +37,9 @@ const ExperienceSection = () => {
       end: "Jan 2023",
       imgSrc: suvidha,
       shortDescriptions: [
-        "Lead the development of a strategic website redesign and ensuring that we deliver high-quality results.",
-        " Our task is to create a responsive frontend of the website.",
-        "The period of internship provided intensive knowledge of team management through hands-on experience working with other team members.",
+        "Led the development and design team in creating innovative products for Suvidha Mahila Mandal, showcasing leadership and project execution skills",
+        "Acquired comprehensive knowledge in project and team management, enhancing operational efficiency and teamwork during the internship",
+        "Mastered diverse aspects of product development, from concept to deployment, contributing to significant learning and growth in a environment",
       ],
     },
   ];
