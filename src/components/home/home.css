@@ -190,3 +190,34 @@ html {
     height: 22px;
   }
 }
+.home__buttons {
+  display: flex;
+  gap: 1rem; /* Adjust the gap as needed */
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: start; /* Aligns items to the start of the container */
+}
+
+.button--flex {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: center; /* Centers content horizontally */
+}
+
+.button--view .button__icon {
+  margin-left: 8px; /* Space between the text and the icon */
+}
+
+.button-download {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  display: inline-flex; /* Use inline-flex to align svg and text inline */
+  align-items: center; /* Center align the svg and text */
+  justify-content: center; /* Center justify the content */
+  text-decoration: none; /* Remove underline from anchor tags */
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  /* Adjust the right margin as needed */
+}

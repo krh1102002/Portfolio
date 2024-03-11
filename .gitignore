@@ -21,3 +21,46 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.nx
+# macOS specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Node modules
+node_modules/
+
+# Windows script files
+*.cmd
+*.bat
+*.ps1
+
+# Unix script files
+*.sh
+
+# Webpack generated files
+webpack.config.js
+webpack.dev.config.js
+webpack.prod.config.js
+
+# Cache files
+.eslintcache
+.babel-loader-cache
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore all files that start with a dot and a hash
+.#*
