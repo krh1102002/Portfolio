@@ -14,7 +14,7 @@ const ExperienceSection = () => {
       end: "Feb 2024",
       imgSrc: kelp,
       shortDescriptions: [
-        "efined one of the core Kelp Global module's user experiences, ensuring intuitive interactionand increased user satisfaction.",
+        "Refined one of the core Kelp Global module's user experiences, ensuring intuitive interactionand increased user satisfaction.",
         "Identified and fixed critical bugs within the module, leading to enhanced system reliability andsmoother user experiences",
       ],
     },
@@ -26,7 +26,7 @@ const ExperienceSection = () => {
       imgSrc: dfiie,
       shortDescriptions: [
         "Architected DFIIE's website, combining leadership with expertise in design and development to enhance the digital platform",
-        "nnovated a platform within the website, spotlighting startups and fueling their journey by connecting them with DFIIE’s mission and resources.",
+        "Innovated a platform within the website, spotlighting startups and fueling their journey by connecting them with DFIIE’s mission and resources.",
         "Provide a platform for startups to display their ventures.",
       ],
     },
