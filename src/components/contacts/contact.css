@@ -139,6 +139,9 @@ html {
   .contact__form {
     width: 100%;
   }
+  .section {
+    padding-left: 20px;
+  }
 }
 
 /* For small devices */

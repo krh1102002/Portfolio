@@ -1502,3 +1502,9 @@ fieldset:disabled a.btn {
     margin-left: 91.666667%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .section {
+    padding-left: 20px;
+  }
+}

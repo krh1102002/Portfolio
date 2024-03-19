@@ -2,7 +2,6 @@ import React from "react";
 import "./experience.css";
 import suvidha from "../../assets/suvidha.jpeg";
 import kelp from "../../assets/kelpglobal_logo.jpeg";
-import metlife from "../../assets/metlife.jpg";
 import dfiie from "../../assets/dfiie logo.jpg";
 
 const ExperienceSection = () => {
@@ -45,7 +44,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section id="experience">
+    <section id="experience section">
       <h2 className="section__title">Where I&apos;ve worked</h2>
       <span className="section__subtitle">My Experience</span>
       <div className="timeline">

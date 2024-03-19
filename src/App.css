@@ -207,6 +207,9 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .section {
+    padding-left: 5px;
+  }
 }
 
 /* For small devices */

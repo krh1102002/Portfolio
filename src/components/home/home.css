@@ -6,7 +6,7 @@ html {
 }
 
 .home__content {
-  grid-template-columns: 116px repeat(2, 1fr);
+  grid-template-columns: 30px repeat(2, 1fr);
   padding-top: 5.5rem;
   column-gap: 2rem;
   align-items: center;
@@ -96,7 +96,7 @@ html {
 }
 
 .home__scroll {
-  margin-left: 9.25rem;
+  margin-left: 4.25rem;
 }
 .wheel {
   animation: scroll 2s ease infinite;
@@ -192,13 +192,13 @@ html {
 }
 .home__buttons {
   display: flex;
-  gap: 1rem; /* Adjust the gap as needed */
-  align-items: center; /* Aligns items vertically in the center */
-  justify-content: start; /* Aligns items to the start of the container */
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .button--view .button__icon {
-  margin-left: 8px; /* Space between the text and the icon */
+  margin-left: 8px;
 }
 
 .button-download {

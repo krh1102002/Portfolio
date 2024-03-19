@@ -2519,3 +2519,20 @@ html {
   margin-bottom: 40px !important;
   border-bottom: 0.1px solid #fff;
 }
+
+@media (max-width: 576px) {
+  .footer {
+    padding-left: 5px;
+  }
+  .section {
+    padding-left: 20px;
+  }
+  .social_link {
+    display: "flex";
+    justify-content: "flex-start";
+  }
+}
+.social_link {
+  display: "flex";
+  justify-content: "center";
+}

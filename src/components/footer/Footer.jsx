@@ -17,10 +17,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div
-            className="col-md-3"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
+          <div className="col-md-3 social_link">
             <div className="footer__social">
               <h1 className="footer__title-name mb-md-3 mt-4 mt-md-0">
                 Socials

@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
+.about {
+}
 .about__container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -2660,6 +2662,7 @@ html {
 
 .about {
   /* Your existing .about styles */
+  padding-left: 5px;
 }
 
 /* Add styles for the skill buttons */
@@ -2737,7 +2740,7 @@ html {
     ); /* Adjust for smaller screens */
   }
   .about__skills-text {
-    font-size: 0.81rem;
+    font-size: 0.91rem;
   }
 }
 
@@ -2818,7 +2821,6 @@ html {
   }
 }
 
-/* Skill section adjustments */
 .skills {
   width: 48px; /* smaller width for small devices */
   height: 48px; /* smaller height for small devices */
