@@ -44,7 +44,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section id="experience section">
+    <section className="section" id="experience">
       <h2 className="section__title">Where I&apos;ve worked</h2>
       <span className="section__subtitle">My Experience</span>
       <div className="timeline">
