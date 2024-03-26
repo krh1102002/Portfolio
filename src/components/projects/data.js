@@ -28,7 +28,7 @@ const projectData = [
     image: airbnbClone,
     description:
       "Developed a system for managing bookings, enabling dynamic pricing, and facilitating easy guest and owner cancellations. Utilized MongoDB, a NoSQL database, to manage data flexibly and efficiently, providing a scalable foundation for the application’s dynamic content and user interactions",
-    link: "",
+    link: "https://airbnb-rent-app.vercel.app/",
     gitLink: "https://github.com/krh1102002/Airbnb-app",
   },
   {
