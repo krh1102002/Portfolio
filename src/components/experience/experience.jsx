@@ -3,9 +3,22 @@ import "./experience.css";
 import suvidha from "../../assets/suvidha.jpeg";
 import kelp from "../../assets/kelpglobal_logo.jpeg";
 import dfiie from "../../assets/dfiie logo.jpg";
+import agua from "../../assets/agua logo.jpg";
 
 const ExperienceSection = () => {
   const ExperienceData = [
+    {
+      name: "Agua Wireless System",
+      role: "Junior Full Stack Developer",
+      start: "May 2024",
+      end: "June 2024",
+      imgSrc: agua,
+      shortDescriptions: [
+        "Built a comprehensive project from scratch, including four distinct modules, resulting in a 30% improvement in system efficiency.",
+        "Ensuring seamless integration and developing both client-side and server-side architecture.",
+        "Enhanced code quality of other projects by 25% using dynamic components, reducing redundancy, developed and managed databases and applications, and wrote effective APIs.",
+      ],
+    },
     {
       name: "KELP GLOBAL",
       role: "Software Developer Intern",
